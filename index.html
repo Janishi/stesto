@@ -7,9 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hi</h1>
-    <button onclick="clicked()">click</button>
-    <p></p>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <h1>hi</h1>
+        <button onclick="clicked()">click</button>
+        <p></p>
+    </div>
+   
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <label for="input" style="display: block; ">enter data</label>
+        <input type="text" name="input" id="myInput">
+        <button onclick="foo()" style="display: block;">click</button>
+        <p id="input_p"></p>
+    </div>
+    
+
+
     <script src="script.js"></script>
     
 </body>
