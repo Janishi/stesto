@@ -12,9 +12,8 @@ const foo = () => {
   paragraph.textContent = input;
 };
 
-let num1 = true;
-let num2 = false;
-
-let result = !(num1 && num2);
-
-console.log(result);
+let array = [1, 2, 3, 4, 5];
+let result = array.push(6);
+for (let item of array) {
+  console.log((item = item + 1) * 2);
+}
